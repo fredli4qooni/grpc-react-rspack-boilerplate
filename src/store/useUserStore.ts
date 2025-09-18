@@ -1,7 +1,6 @@
-// src/store/userStore.ts
 import { create } from "zustand";
-import { User } from "../types/user";
-import { getUserById } from "../api/userService";
+import { User } from "../types/user.types";
+import { getUserById } from "../utils/api/userApi";
 
 interface UserState {
   user: User | null;

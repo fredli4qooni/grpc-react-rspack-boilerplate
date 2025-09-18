@@ -1,6 +1,6 @@
 import React from 'react';
-import { useUserStore } from '../store/userStore';
-import { Button } from '../common/Button';
+import { useUserStore } from '../../store/useUserStore';
+import { Button } from '../../common/Button';
 
 /**
  * Komponen "pintar" (smart component) yang bertanggung jawab untuk menampilkan informasi profil pengguna.

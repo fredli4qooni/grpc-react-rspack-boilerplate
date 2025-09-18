@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { UserProfile } from './UserProfile';
-import { useUserStore } from '../store/userStore';
+import { useUserStore } from '../../store/useUserStore';
 
 jest.mock('../store/userStore');
 

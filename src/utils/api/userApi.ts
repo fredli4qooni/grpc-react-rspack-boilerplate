@@ -1,7 +1,7 @@
 import { RpcError } from 'grpc-web';
 import { GetUserRequest, UserResponse } from "./proto/user_pb.js";
 import { UserServiceClient } from "./proto/user_grpc_web_pb.js";
-import { User } from "../types/user";
+import { User } from "../../types/user.types.js";
 
 const endpoint = 'http://localhost:8080';
 const client = new UserServiceClient(endpoint, null, null);

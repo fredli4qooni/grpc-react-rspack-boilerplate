@@ -6,7 +6,7 @@
     "test": "jest",
     "dev": "rspack dev",
     "build": "rspack build",
-    "proto:gen": "protoc --proto_path=./protos ./protos/*.proto --js_out=import_style=commonjs,binary:./src/api/proto --grpc-web_out=import_style=commonjs,mode=grpcwebtext:./src/api/proto"
+    "proto:gen": "protoc --proto_path=./protos ./protos/*.proto --js_out=import_style=commonjs,binary:./src/utils/api/proto --grpc-web_out=import_style=commonjs,mode=grpcwebtext:./src/utils/api/proto"
   },
   "dependencies": {
     "google-protobuf": "^4.0.0",
