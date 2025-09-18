@@ -33,19 +33,40 @@ A comprehensive, production-ready boilerplate for building modern frontend appli
 The project structure is designed for scalability and maintainability.
 
 ```
-/
-├── protos/               # Single source of truth for API contracts (.proto)
-├── public/               # Static assets
-├── src/
-│   ├── api/             # API wrappers and generated gRPC code
-│   ├── common/          # Common UI components (e.g., Button)
-│   ├── components/      # Feature components (e.g., UserProfile)
-│   ├── store/           # Global state management (Zustand)
-│   ├── types/           # TypeScript type definitions
-│   └── ...
-├── jest.config.js       # Jest configuration
-├── rspack.config.js     # Rspack configuration
-└── tsconfig.json        # TypeScript configuration
+├── 📁 protos/
+│   └── 📄 user.proto
+├── 📁 public/
+│   └── 📄 index.html
+├── 📁 src/
+│   ├── 📁 assets/
+│   ├── 📁 common/
+│   │   ├── 📄 Button.tsx
+│   │   └── 🧪 Button.test.tsx
+│   ├── 📁 components/
+│   │   └── 📁 user-profile/
+│   │       ├── 📄 UserProfile.tsx
+│   │       ├── 🧪 UserProfile.test.tsx
+│   │       └── 📄 UserProfile.types.ts
+│   ├── 📁 constants/
+│   ├── 📁 hooks/
+│   ├── 📁 store/
+│   │   └── 📄 useUserStore.ts
+│   ├── 📁 types/
+│   │   └── 📄 user.types.ts
+│   └── 📁 utils/
+│       └── 📁 api/
+│           ├── 📁 proto/
+│           │   ├── 📄 user_grpc_web_pb.js
+│           │   └── 📄 user_pb.js
+│           └── 📄 userApi.ts
+│
+├── 📄 .gitignore
+├── 📄 jest.config.js
+├── 📄 jest.setup.ts
+├── 📄 package.json
+├── 📄 pnpm-lock.yaml
+├── 📄 rspack.config.js
+└── 📄 tsconfig.json
 ```
 
 ## 🏁 Getting Started
