@@ -87,7 +87,7 @@ Ensure you have the following tools installed on your system:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/fredli4qooni/grpc-react-rspack-boilerplate.git
    cd your-repository-name
    ```
 
