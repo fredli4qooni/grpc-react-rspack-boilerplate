@@ -88,7 +88,7 @@ Ensure you have the following tools installed on your system:
 1. **Clone this repository:**
    ```bash
    git clone https://github.com/fredli4qooni/grpc-react-rspack-boilerplate.git
-   cd your-repository-name
+   cd grpc-react-rspack-boilerplate
    ```
 
 2. **Install dependencies:**
@@ -131,8 +131,8 @@ This project is configured with Jest and React Testing Library for unit and comp
 To modify or add new API calls:
 
 1. **Edit Contracts**: Modify or add definitions in `.proto` files within the `/protos` folder
-2. **Regenerate Code**: Run `pnpm proto:gen` to update client code in `src/api/proto/`
-3. **Update API Wrappers**: Adjust functions in `src/api/userService.ts` (or create new service files) to utilize new messages and services
+2. **Regenerate Code**: Run `pnpm proto:gen` to update client code in `src/utils/api/proto/`
+3. **Update API Wrappers**: Adjust functions in `src/utils/api/userApi.ts` (or create new service files) to utilize new messages and services
 4. **Use in Application**: Call new functions from API wrappers within your components or stores
 
 ## 🤝 Contributing
